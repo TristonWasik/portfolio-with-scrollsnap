@@ -1,0 +1,31 @@
+nav {
+    text-align: center;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav > ul {
+    padding: 1rem;
+    margin: 0;
+}
+
+nav > ul > li {
+    list-style: none;
+    display: inline;
+    padding: 0 1rem 0 1rem;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > li > a:active {
+    color: silver;
+}
+
+nav > ul > li > a:hover {
+    color: silver;
+}
